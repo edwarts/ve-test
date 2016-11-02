@@ -27,6 +27,8 @@ public class App
             if(passwordSys.verifyPassword(userName,password)==true)
             {
                 System.out.println("Password is correct !");
+                //continue once the password is correct!
+                continue;
             }
             else
             {
