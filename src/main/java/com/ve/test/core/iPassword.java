@@ -5,7 +5,7 @@ package com.ve.test.core;
  */
 public interface iPassword {
     public String returnPassWord(String userId);
-    public boolean verifyPassword(String passwordToBeCheck);
+    public boolean verifyPassword(String userId,String passwordToBeCheck);
     public iAlgorithm algorithmGenerator(String algorithmClassName);
-    public boolean passwordExpired(int expiredTime);
+    public boolean passwordExpired(Long timeToCheck,int expiredTime);
 }
