@@ -1,6 +1,5 @@
 package com.ve.test;
 
-import com.apple.eawt.AppEvent;
 import com.ve.test.core.PasswordUtility;
 import com.ve.test.core.iPassword;
 
