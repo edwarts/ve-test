@@ -12,6 +12,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        //By default the password is based on MD5
         iPassword passwordSys= PasswordUtility.getPasswordUtility("MD5");
         while(true)
         {

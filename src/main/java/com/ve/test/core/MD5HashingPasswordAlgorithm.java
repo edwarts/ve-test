@@ -1,4 +1,5 @@
 package com.ve.test.core;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -10,7 +11,6 @@ public class MD5HashingPasswordAlgorithm implements iAlgorithm {
         try {
             MessageDigest md = MessageDigest.getInstance("MD5");
             md.update(input.getBytes());
-            //
             byte b[] = md.digest();
             //Generate the hashcode and build up the password
             int i;

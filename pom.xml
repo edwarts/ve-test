@@ -12,22 +12,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jdk.version>1.8</jdk.version>
+    <jdk.version>1.7</jdk.version>
   </properties>
   <build>
+
     <finalName>password-test</finalName>
     <plugins>
-
-      <!-- download source code in Eclipse, best practice -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-eclipse-plugin</artifactId>
-        <version>2.9</version>
-        <configuration>
-          <downloadSources>true</downloadSources>
-          <downloadJavadocs>false</downloadJavadocs>
-        </configuration>
-      </plugin>
 
       <!-- Set a compiler level -->
       <plugin>
