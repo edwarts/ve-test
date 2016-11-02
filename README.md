@@ -5,7 +5,7 @@ Please use mvn package to make a build
 
 Please use java -jar password-test.jar to try the demo
 
-Please use mvn test to run test case
+Please use mvn test to run test case ,if you met an issue in commandline to run test , please try it in Intelij, it is working fine.
 
 This password is generated based on user id and the time password created 's MD5 hashing
 
